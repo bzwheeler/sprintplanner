@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <input type="hidden" id="zen_api_key" value="20c5995ee9ee456b9c054cfcd6ebe1e6"/>
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="#">Sprint Planner</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="span10">
+                    <div class="row">
+                        <div class="span10">
+                            <div id="stories" class="container">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="calendar">
+                        <div class="row week">
+                            <div class="span2">
+                                <div class="day" data-day="1"><h4 class="muted">M</h4 class="muted"></div>
+                            </div>
+                            <div class="span2">
+                                <div class="day" data-day="2"><h4 class="muted">Tu</h4 class="muted"></div>
+                            </div>
+                            <div class="span2">
+                                <div class="day" data-day="3"><h4 class="muted">W</h4 class="muted"></div>
+                            </div>
+                            <div class="span2">
+                                <div class="day" data-day="4"><h4 class="muted">Th</h4 class="muted"></div>
+                            </div>
+                            <div class="span2">
+                                <div class="day" data-day="5"><h4 class="muted">F</h4 class="muted"></div>
+                            </div>
+                        </div>
+                        <div class="row week">
+                            <div class="span2">
+                                <div class="day" data-day="6"><h4 class="muted">M</h4 class="muted"></div>
+                            </div>
+                            <div class="span2">
+                                <div class="day" data-day="7"><h4 class="muted">Tu</h4 class="muted"></div>
+                            </div>
+                            <div class="span2">
+                                <div class="day" data-day="8"><h4 class="muted">W</h4 class="muted"></div>
+                            </div>
+                            <div class="span2">
+                                <div class="day" data-day="9"><h4 class="muted">Th</h4 class="muted"></div>
+                            </div>
+                            <div class="span2">
+                                <div class="day" data-day="10"><h4 class="muted">F</h4 class="muted"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="span2">
+                    <div class="row">
+                        <div class="span2 bucket">
+                            <h3 class="muted">Done</h3 class="muted">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="span2 bucket">
+                            <h3 class="muted">Blocked</h3 class="muted">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="span2 bucket">
+                            <h3 class="muted">Triage</h3 class="muted">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <footer>
+                <p>&copy; WheelerWorksTheWeb 2012</p>
+            </footer>
+
+        </div>
+
+        <script data-main="js/planner/main.js" type="text/javascript" src="js/vendor/require/require.js"></script>
+    </body>
+</html>

@@ -1,0 +1,94 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+div.day {
+    height: 150px;
+    width: 100%;
+    border-radius: 5px;
+    background-color:#ddd;
+    -moz-box-shadow: 0 0 5px #666;
+    -webkit-box-shadow: 0 0 5px#666;
+    box-shadow: 0 0 5px #666;
+}
+
+div.row {
+    margin-bottom:10px;
+}
+
+div.day h4 {
+    float: right;
+    margin-right:10px;
+}
+
+div.row h3 {
+    margin-right:10px;
+    float: right;
+}
+
+div.row.week {
+    margin-bottom: 30px;
+}
+
+#stories {
+    border-radius: 5px;
+    width:100%;
+    -moz-box-shadow: 0 0 5px #666;
+    -webkit-box-shadow: 0 0 5px#666;
+    box-shadow: 0 0 5px #666;
+    margin-bottom:20px;
+}
+
+div.bucket {  
+    height: 150px;
+    -moz-box-shadow: 0 0 5px #666;
+    -webkit-box-shadow: 0 0 5px#666;
+    box-shadow: 0 0 5px #666;
+    border-radius: 5px;
+}
+
+#addStoryBtn {
+    margin:2px;
+}
+
+div.storycard {
+    float: left;
+    margin: 5px 0px 5px 5px;
+    border-radius: 5px;
+    padding: 0px 5px 5px;
+}
+
+div.sticky_note {
+    width:20px;
+    height:20px;
+    background-color:yellow;
+    -moz-box-shadow: 3px 3px 4px #000;
+    -webkit-box-shadow: 3px 3px 4px #000;
+    box-shadow: 3px 3px 4px #000;
+}
+
+div.task {
+    cursor: pointer;
+}
+
+div.task .sticky_note {
+    margin-right: 5px;
+}
+
+div.task .sticky_note h5 {
+    margin: 0px 5px;
+}
+
+div.day .task {
+    padding: 5px;
+}
+
+.modal li.story {
+    margin: 5px 0px;
+    padding-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    list-style-type: none;
+}

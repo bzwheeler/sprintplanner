@@ -1,0 +1,13 @@
+{{#each stories}}
+    {{#if scheduled}}
+        <div class="storycard" style="background-color:{{color}}">
+            <h4>{{text}}</h4>
+            {{#topTask tasks}}
+                <div class="task" data-id="{{id}}" data-story-id="{{story_id}}">
+                    <div class="sticky_note pull-left"><h5>{{count}}</h5></div>{{text}}
+                </div>
+            {{/topTask}}
+        </div>
+    {{/if}}
+{{/each}}
+<a id="addStoryBtn" class="btn btn-primary btn-small pull-right"><i class="icon-plus"></i> Story</a>
